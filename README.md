@@ -1,4 +1,4 @@
-# `@atomist/my-skill`
+# `@atomist/bot-skill`
 
 <!---atomist-skill-readme:start--->
 

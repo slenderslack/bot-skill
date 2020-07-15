@@ -1,3 +1,23 @@
-{
-  name: "bot-skill"
-}
+{:description
+ "Show a ClojureScript based Slack Bot function",
+ :category ["DEV_EX"],
+ :license "Apache-2.0",
+ :displayName "Bot Skill",
+ :name "bot-skill",
+ :author "slenderslack",
+ :dispatch "multiple",
+ :commands
+ [{:name "command",
+   :description "Send everything that is addressed to @atomist",
+   :pattern ".*"}],
+ :iconUrl
+ "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT-VIasIlmRrgzPGRGmrKxAroRYqCiN8pyjzLFEIUJeT-DNxU0d&usqp=CAU",
+ :homepageUrl "https://github.com/slenderslack/bot-skill",
+ :namespace "slenderslack",
+ :artifacts
+ {:gcf
+  [{:name "slenderslack/bot-skill",
+    :entryPoint "eventhandler",
+    :memory 1024,
+    :runtime "nodejs10",
+    :timeout 120}]}}
