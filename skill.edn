@@ -9,7 +9,7 @@
  :commands
  [{:name "command",
    :description "Send everything that is addressed to @atomist",
-   :pattern ".*"}],
+   :pattern "^.*$"}],
  :iconUrl
  "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT-VIasIlmRrgzPGRGmrKxAroRYqCiN8pyjzLFEIUJeT-DNxU0d&usqp=CAU",
  :homepageUrl "https://github.com/slenderslack/bot-skill",
