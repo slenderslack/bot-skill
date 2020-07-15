@@ -3,6 +3,6 @@
 
 (def module-name "bot-skill")
 (def path ".")
-(def version "0.1.4")
-(def tag "0.1.4")
-(def generated-at "2020-07-15T00:49:10Z")
+(def version "0.1.5")
+(def tag "0.1.5")
+(def generated-at "2020-07-15T01:08:25Z")
